@@ -1,5 +1,4 @@
 import {
-  Button,
   IconButton,
   MobileNav,
   Navbar,
@@ -21,9 +20,7 @@ const StickyNavbar = ()=> {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
         <a href="#" className="flex items-center">
          Home
@@ -33,30 +30,64 @@ const StickyNavbar = ()=> {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal uppercase text-base text-[#696969]  border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
         <a href="#" className="flex items-center">
           About us
         </a>
       </Typography>
+      <div className="group relative cursor-pointer">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 menu-hover font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
         <a href="#" className="flex items-center">
           services
+        </a>
+      </Typography>
+      <div
+          className="invisible absolute z-10 flex w-[270px] flex-col bg-gray-100 text-[#696969] shadow-xl group-hover:visible"
+          onClick=""
+        >
+          <a
+            className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
+            >Custom Software Development</a
+          >
+ 
+          <a
+            className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
+            >web application Development</a
+          >
+          <a
+            className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
+            >mobile application Development
+          </a>
+          <a
+            className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
+            >quality assurance & quality
+          </a>
+        </div>
+      </div>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
+      >
+        <a href="#" className="flex items-center">
+         careers
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
         <a href="#" className="flex items-center">
-         careers
+         contact us
         </a>
       </Typography>
     </ul>
@@ -68,22 +99,22 @@ const StickyNavbar = ()=> {
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium text-xl text-[#A41F5C]"
+            className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-[#A41F5C]"
           >
             Diganta Soft
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            <Button
+            {/* <Button
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block"
             >
               <span>Contact us</span>
-            </Button>
+            </Button> */}
             <IconButton
               variant="text"
-              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-[#A41F5C]"
               ripple={false}
               onClick={() => setOpenNav(!openNav)}
             >
@@ -122,9 +153,6 @@ const StickyNavbar = ()=> {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
-          </Button>
         </MobileNav>
       </Navbar>
   );

@@ -1,19 +1,20 @@
 import React from 'react'
-import BanerImage from '../../assets/images/home/home-baner.png'
+import Call from '../../components/Call/Call'
+import Clients from '../../components/Clients/Clients'
+import Header from '../../components/Header/Header'
+import OurOffer from '../../components/OurOffer/OurOffer'
+import OurServices from '../../components/OurServices/OurServices'
+import Footer from '../../components/shared/Footer/Footer'
 const Home = () => {
   return (
-    <main className='mt-10'>
-      <div className='grid grid-cols-2 gap-12 justify-items-center items-center px-12 '>
-        <div>
-            <h1 className='text-4xl font-semibold '><span className='uppercase text-[#A41F5C] '>Diganta</span> - Your trusted software development partner</h1>
-            <br />
-            <p className='text-2xl antialiased font-thin'>A top tier software development team assisting owners and decision makers to implement digital initiatives to achieve lasting financial success</p>
-        </div>
-        <div>
-            <img src={BanerImage} className='w-50 ' alt="" />
-        </div>
-      </div>
-    </main>
+    <div className='overflow-hidden'>
+      <Header></Header>
+      <OurServices></OurServices>
+      <Clients></Clients>
+      <OurOffer></OurOffer>
+      <Call></Call>
+      <Footer></Footer>
+    </div>
   )
 }
 
