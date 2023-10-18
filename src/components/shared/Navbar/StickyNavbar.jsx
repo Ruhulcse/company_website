@@ -5,6 +5,7 @@ import {
   Typography
 } from "@material-tailwind/react";
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
  
 const StickyNavbar = ()=> {
   const [openNav, setOpenNav] = useState(false);
@@ -22,9 +23,11 @@ const StickyNavbar = ()=> {
         as="li"
         className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to='/'>
+        <a className="flex items-center">
          Home
         </a>
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -32,9 +35,11 @@ const StickyNavbar = ()=> {
         color="blue-gray"
         className="p-1 font-normal uppercase text-base text-[#696969]  border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to='/about-us'>
+        <a  className="flex items-center">
           About us
         </a>
+        </NavLink>
       </Typography>
       <div className="group relative cursor-pointer">
       <Typography
@@ -43,31 +48,40 @@ const StickyNavbar = ()=> {
         color="blue-gray"
         className="p-1 menu-hover font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
-        <a href="#" className="flex items-center">
+         <NavLink to='/services'>
+        <a  className="flex items-center">
           services
         </a>
+         </NavLink>
       </Typography>
       <div
           className="invisible absolute z-10 flex w-[270px] flex-col bg-gray-100 text-[#696969] shadow-xl group-hover:visible"
           onClick=""
         >
+           <NavLink to='/services/dev'>
           <a
             className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
             >Custom Software Development</a
           >
- 
+           </NavLink>
+           <NavLink to='/services/web'>
           <a
             className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
             >web application Development</a
           >
+           </NavLink>
+           <NavLink to='/services/mobile'>
           <a
             className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
             >mobile application Development
           </a>
+           </NavLink>
+           <NavLink to='/services/quality'>
           <a
             className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] "
             >quality assurance & quality
           </a>
+           </NavLink>
         </div>
       </div>
       <Typography
@@ -76,9 +90,11 @@ const StickyNavbar = ()=> {
         color="blue-gray"
         className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to='/careers'>
+        <a  className="flex items-center">
          careers
         </a>
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -86,9 +102,11 @@ const StickyNavbar = ()=> {
         color="blue-gray"
         className="p-1 font-normal uppercase text-base text-[#696969] border-b-2 border-transparent hover:border-[#A41F5C] transition-all duration-300 ease-in-out"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to='/contact-us'>
+        <a  className="flex items-center">
          contact us
         </a>
+        </NavLink>
       </Typography>
     </ul>
   );
@@ -98,7 +116,7 @@ const StickyNavbar = ()=> {
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            
             className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-[#A41F5C]"
           >
             Diganta Soft

@@ -9,15 +9,15 @@ const Call = () => {
   return (
     <section className="mt-20 p-10 bg-[#F8F8F8]">
     <div className='grid md:grid-cols-[1fr_50px_1fr] lg:grid-cols-[1fr_50px_1fr] items-center'>
-        <div className="md:px-28 lg:px-28 px-4" data-aos="fade-right">
-            <h1 className="uppercase text-[80px] leading-none font-bold text-[#333333]">want us to <span className="text-[#A41F5C]">call </span>you?</h1>
+        <div className="md:px-16 lg:px-28 px-4" data-aos="fade-right">
+            <h1 className="uppercase text-[80px] md:text-6xl lg:text-[80px]  leading-none font-bold text-[#333333]">want us to <span className="text-[#A41F5C]">call </span>you?</h1>
         </div>
-        <div className="mr-10 hidden md:block lg:block">
+        <div className="mr-10 hidden lg:block">
             <div className="border-r-4 h-20 border-[#A41F5C]"></div>
         </div>
         <div data-aos="fade-left">
         <Card color="transparent" shadow={false}>
-      <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+      <form className="mt-8 mb-2 md:w-96 lg:w-96 w-80 max-w-screen-lg">
         <div className="mb-4 flex flex-col gap-6">
           <Input size="lg" className="rounded-none" label="Name" />
           <Input size="lg" className="rounded-none" label="Company" />

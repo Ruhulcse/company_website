@@ -3,7 +3,7 @@ import BannerImage from '../../assets/images/home/home-baner.png'
 const Header = () => {
   return (
     <section className='mt-10'> 
-    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-12 justify-items-center items-center px-12'>
+    <div className='grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-12 justify-items-center items-center px-12'>
     <div data-aos="fade-right">
         <h1 className='text-3xl font-bold leading-10  text-[#393939]'><span className='uppercase text-[#A41F5C] '>Diganta</span> - Your trusted Software Development Partner</h1>
         <br />

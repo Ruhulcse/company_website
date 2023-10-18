@@ -1,6 +1,15 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import Layout from '../Layout/Layout'
+import AboutUs from '../pages/Aboutus/AboutUs'
+import Careers from '../pages/Careers/Careers'
+import ContactUs from '../pages/ContactUs/ContactUs'
+import Home from '../pages/Home/Home'
+import MobileDev from '../pages/Services/MobileDev/MobileDev'
+import Quality from '../pages/Services/Quality/Quality'
+import Services from '../pages/Services/Services'
+import SoftDev from '../pages/Services/SoftDev/SoftDev'
+import WebDev from '../pages/Services/WebDev/WebDev'
 
 export const router = createBrowserRouter([
     {
@@ -9,46 +18,42 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:'/',
-                element:<HomePage/>
+                element:<Home/>
             },
             {
-                path:'/foodbar',
-                element:<Foodbar/>
+                path:'/about-us',
+                element:<AboutUs/>
             },
             {
-                path:'/take-away',
-                element:<TakeAway/>
+                path:'/services',
+                element:<Services/>
             },
             {
-                path:'/foodtrucks',
-                element:<FoodTrucks/>
+                path:'/services/dev',
+                element:<SoftDev/>
             },
             {
-                path:'/events',
-                element:<Events/>
+                path:'/services/web',
+                element:<WebDev/>
             },
             {
-                path:'/overons',
-                element:<Overones/>
+                path:'/services/mobile',
+                element:<MobileDev/>
             },
             {
-                path:'/contact',
-                element:<Contact/>
+                path:'/services/quality',
+                element:<Quality/>
             },
             {
-                path:'/menu',
-                element:<PdfViewer/>
+                path:'/careers',
+                element:<Careers/>
             },
             {
-                path:'/admin',
-                element:<UploadPdf/>
+                path:'/contact-us',
+                element:<ContactUs/>
             },
               
         ]
-    },
-    {
-        path:'*',
-        element:<NotFound/>
-    },
+    }
   
 ]) 

@@ -8,11 +8,11 @@ const OurServices = () => {
     <>
     <div className='mt-20'>
         <h1 className='uppercase text-center text-3xl font-bold text-[#333333]'>our services</h1>
-        <p className='text-center text-base leading-6 whitespace-normal text-[#696969] md:px-[302px] lg:px-[302px] px-2 mt-8'>
+        <p className='text-center text-base leading-6 whitespace-normal text-[#696969] md:px-28 lg:px-[302px] px-2 mt-8'>
         We build software development teams that grow with our clients, from the early stages to whatever they aspire to be. Our expertise includes front-end, backend, database, and server solutions for mobile, web, and desktop applications. Our purpose is to provide our clients with expert guidance and to build software vital to their organizations.
         </p>
     </div>
-    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center md:px-28 lg:px-28 px-4'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center md:px-16 lg:px-28 px-4 mt-4'>
      <div className='order-1 md:order-none lg:order-none'>
         <img src={Custom_Soft} alt="" />
      </div>

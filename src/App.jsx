@@ -1,11 +1,11 @@
-import StickyNavbar from "./components/shared/Navbar/stickyNavbar"
-import Home from "./pages/Home/Home"
+import { RouterProvider } from "react-router-dom"
+import './App.css'
+import { router } from "./Routes/Routes"
 function App() {
 
   return (
   <>
-  <StickyNavbar></StickyNavbar>
-  <Home></Home>
+  <RouterProvider router={router}></RouterProvider>
   </>
   )
 }

@@ -8,11 +8,11 @@ const OurOffer = () => {
     <>
     <div className='mt-20'>
     <h1 className='uppercase text-center text-3xl font-bold text-[#333333]'>what we offer</h1>
-    <p className='text-center text-base leading-6 whitespace-normal text-[#696969] md:px-64 lg:px-64 px-4 mt-8'>
+    <p className='text-center text-base leading-6 whitespace-normal text-[#696969] md:px-24 lg:px-64 px-4 mt-8'>
     Diganta works as an extension of your development and testing team. We will work together to solve your business cases and get the maximum value of your budget. One of our differentiating qualities is that we take the time to understand the particular challenges, difficulties, and needs of your business.
         </p>
     </div>
-    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-6 justify-items-center items-center md:px-28 lg:px-28 px-4 mt-20'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-6 justify-items-center items-center md:px-16 lg:px-28 px-4 mt-20'>
     <div data-aos="fade-up">
     <div>
         <img src={engineer} className='h-auto max-w-full object-cover' alt="" />
@@ -27,7 +27,7 @@ const OurOffer = () => {
     </div>
     <div data-aos="fade-up">
     <div>
-        <img src={team} className='h-[515px] max-w-full object-cover' alt="" />
+        <img src={team} className='h-[515px] md:h-[230px] lg:h-[515px] max-w-full object-cover' alt="" />
      </div>
      <div>
         <h1 className='capitalize text-3xl font-bold text-[#A41F5C]'>dedicated team</h1>
