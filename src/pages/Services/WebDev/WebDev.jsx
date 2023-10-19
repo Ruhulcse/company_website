@@ -1,6 +1,7 @@
 import React from "react";
 import engagement from "../../../assets/images/engagement.png";
 import Custom_Soft from "../../../assets/images/home/custom-software.png";
+import Web_app from "../../../assets/images/home/web-app.png";
 import Office from "../../../assets/images/office.jpg";
 import Call from "../../../components/Call/Call";
 const WebDev = () => {
@@ -10,18 +11,18 @@ const WebDev = () => {
         <img
           src={Office}
           alt="Your Image"
-          className="w-full h-[80vh] shadow-none filter-none blur-md"
+          className="w-full md:h-[80vh] lg:h-[80vh] h-[50vh] shadow-none filter-none blur-md"
         />
         <div class="absolute inset-0 bg-gray-900 bg-opacity-60 backdrop-blur-md"></div>
         <div className="absolute left-1/2 transform -translate-x-1/2 bottom-2/4">
           <h1
-            className="text-white uppercase text-5xl font-bold"
+            className="text-white uppercase md:text-5xl lg:text-5xl text-2xl font-bold"
             data-aos="fade-up"
           >
             our services
           </h1>
           <p
-            className="text-white capitalize text-xl text-center mt-2"
+            className="text-white capitalize md:text-xl lg:text-xl text-base text-center mt-2"
             data-aos="fade-up"
           >
             Web Application Development
@@ -29,8 +30,8 @@ const WebDev = () => {
         </div>
       </div>
       <section>
-        <div className="grid grid-cols-2 items-center">
-          <div className="px-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 mt-10 items-center">
+          <div className="px-4 lg:px-20">
             <h1 className="capitalize text-3xl font-bold text-[#A41F5C]">
               Web Application Development
             </h1>
@@ -45,16 +46,16 @@ const WebDev = () => {
               stack.
             </p>
           </div>
-          <div className="px-20">
-            <img src={Custom_Soft} alt="" />
+          <div className="px-4 lg:px-20">
+            <img src={Web_app} alt="" />
           </div>
         </div>
       </section>
       <section>
-        <h1 className="px-20 capitalize text-3xl font-bold text-[#A41F5C]">
+        <h1 className="px-4 mt-6 lg:px-20 capitalize text-3xl font-bold text-[#A41F5C]">
           Our Web App Expertise
         </h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-10 items-center md:px-16 lg:px-28 px-4 mt-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-10 items-center md:px-16 lg:px-28 px-4 mt-10">
           <div>
             <div>
               <svg
@@ -297,7 +298,7 @@ const WebDev = () => {
           </div>
         </div>
       </section>
-      <section className="p-16 mt-20 bg-[#f8f8f8]">
+      <section className="p-4 lg:p-16 mt-20 bg-[#f8f8f8]">
         <div>
           <h1 className="uppercase text-center text-3xl font-bold text-[#333333]">
             our engagement model
@@ -311,7 +312,7 @@ const WebDev = () => {
           </p>
         </div>
         <div
-          className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center md:px-16 lg:px-28 px-4 mt-4"
+          className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center lg:px-28 px-4 mt-4"
           data-aos="fade-up"
         >
           <div>
@@ -359,8 +360,8 @@ const WebDev = () => {
           </div>
         </div>
       </section>
-      <section className="p-[20px_120px]">
-        <div className="grid grid-cols-2 gap-6 items-center ">
+      <section className="lg:p-[20px_120px] p-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-6 items-center ">
           <div>
             <img src={engagement} alt="" />
           </div>
