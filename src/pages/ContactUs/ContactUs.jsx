@@ -65,7 +65,7 @@ const ContactUs = () => {
         <Card color="transparent" shadow={false}>
       <form className="mt-8 mb-2 md:w-96 lg:w-96 w-80 max-w-screen-lg">
         <div className="mb-4 flex flex-col gap-6">
-          <Input size="lg" className="rounded-none" label="Name" />
+          <Input size="lg" className="rounded-none focus-ring focus:outline-none " label="Name" />
           <Input size="lg" className="rounded-none" label="Company" />
           <Input size="lg" className="rounded-none" label="Email" />
           <Input size="lg" className="rounded-none" label="Phone" />
