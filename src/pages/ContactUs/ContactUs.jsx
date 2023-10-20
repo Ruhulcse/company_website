@@ -68,7 +68,7 @@ const ContactUs = () => {
           </div>
           <div>
             <Card color="transparent" shadow={false}>
-              <form className="mt-8 mb-2 md:w-96 lg:w-96 w-80 max-w-screen-lg">
+              <form className="mt-8 mb-2 w-72 lg:w-96 max-w-screen-lg">
                 <div className="mb-4 flex flex-col gap-6">
                   <Input
                     size="lg"
