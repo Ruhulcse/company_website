@@ -23,22 +23,17 @@ const Services = () => {
             className="text-white uppercase md:text-5xl lg:text-5xl text-2xl font-bold"
             data-aos="fade-up"
           >
-            our services
+            Our services
           </h1>
         </div>
       </div>
       <section>
         <div className="mt-20">
           <h1 className="uppercase text-center text-3xl font-bold text-[#333333]">
-            our services
+            Our services
           </h1>
           <p className="text-center text-base leading-6 whitespace-normal text-[#696969] md:px-28 lg:px-[302px] px-2 mt-8">
-            We build software development teams that grow with our clients, from
-            the early stages to whatever they aspire to be. Our expertise
-            includes front-end, backend, database, and server solutions for
-            mobile, web, and desktop applications. Our purpose is to provide our
-            clients with expert guidance and to build software vital to their
-            organizations.
+          We create software teams that expand alongside our clients, starting from the beginning to wherever they aim to reach. We know about front-end, backend, databases, and servers for phones, websites, and computers. We're here to give our clients expert advice and make software that's really important for their businesses.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center md:px-16 lg:px-28 px-4 mt-4">
@@ -50,15 +45,11 @@ const Services = () => {
             data-aos="fade-left"
           >
             <h1 className="capitalize text-3xl font-bold text-[#A41F5C]">
-              custom software <br /> development
+              Custom software <br /> Development
             </h1>
             <br />
             <p className="text-base leading-6 whitespace-normal text-[#393939]">
-              Diganta helps you create diverse and complex software solutions
-              for your business needs. Listening to your ideas, we implement and
-              create custom software solutions from scratch, designed especially
-              for your business. With Diganta, you get quality software and
-              perfect service every time.
+             Digonto makes unique and detailed software just for your business. We listen to what you want and build special software from the start. With Diganta, you always get good software and great help.
             </p>
           </div>
           <div
@@ -66,14 +57,11 @@ const Services = () => {
             data-aos="fade-right"
           >
             <h1 className="capitalize text-3xl font-bold text-[#A41F5C]">
-              web application <br /> development
+              Web application <br /> Development
             </h1>
             <br />
             <p className="text-base leading-6 whitespace-normal text-[#393939]">
-              Diganta looks beyond conventional solutions to develop disruptive
-              web products. Our skilled and dedicated web development team
-              understands your needs and leverage the dynamism of modern web
-              frameworks to create business valued web applications.
+            Digonto thinks outside the box to make standout web products. Our web team is talented and listens to what you need. We use the latest web tools to make useful apps for your business.
             </p>
           </div>
           <div className="order-3 md:order-none lg:order-none">
@@ -87,18 +75,11 @@ const Services = () => {
             data-aos="fade-left"
           >
             <h1 className="capitalize text-3xl font-bold text-[#A41F5C]">
-              mobile application <br /> development
+              Mobile application <br /> Development
             </h1>
             <br />
             <p className="text-base leading-6 whitespace-normal text-[#393939]">
-              Our expertise in custom mobile app development gives our clients
-              the opportunity to pack incredible functionality into their
-              customer’s hands. We develop apps that perform across different
-              mobile devices and operating systems. We are experts at
-              Swift/Objective-C to build native iOS apps and Java/Kotlin for
-              native Android app development. For cross-platform and hybrid
-              development our expertise include, but are not limited to, Ionic,
-              Xamarin, and React Native.
+            We're experts in making custom mobile apps. This lets our clients give awesome features to their customers. We make apps that work on all kinds of phones and systems. We use Swift/Objective-C for Apple apps and Java/Kotlin for Android. We also know how to use tools like Ionic, Xamarin, and React Native for apps that work on both Apple and Android.
             </p>
           </div>
           <div
@@ -106,15 +87,11 @@ const Services = () => {
             data-aos="fade-right"
           >
             <h1 className="capitalize text-3xl font-bold text-[#A41F5C]">
-              digital marketing
+              Digital marketing
             </h1>
             <br />
             <p className="text-base leading-6 whitespace-normal text-[#393939]">
-              Digonto soft is your gateway to online success. We specialize in
-              SEO, social media management, PPC advertising, and more. Our
-              expert team crafts tailored strategies to boost your online
-              presence, engage your audience, and drive revenue. Stay ahead in
-              the digital realm with our results-driven solutions.
+            Digonto Soft helps you do well online. We're good at SEO, handling social media, online ads, and more. Our team makes plans to improve your online image, connect with people, and make more money. With our help, you can stay ahead online.
             </p>
           </div>
           <div className="order-7 md:order-none lg:order-none">
@@ -122,7 +99,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className="p-4 lg:p-16 bg-[#f8f8f8]">
+      {/* <section className="p-4 lg:p-16 bg-[#f8f8f8]">
         <div>
           <h1 className="pt-4 uppercase text-center text-3xl font-bold text-[#333333]">
             our engagement model
@@ -197,8 +174,8 @@ const Services = () => {
             </h1>
           </div>
         </div>
-      </section>
-      <Call></Call>
+      </section> */}
+      {/* <Call></Call> */}
     </div>
   );
 };

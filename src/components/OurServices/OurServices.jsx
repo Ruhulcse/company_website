@@ -11,11 +11,7 @@ const OurServices = () => {
           our services
         </h1>
         <p className="text-center text-base leading-6 whitespace-normal text-[#696969] md:px-28 lg:px-[302px] px-2 mt-8">
-          We build software development teams that grow with our clients, from
-          the early stages to whatever they aspire to be. Our expertise includes
-          front-end, backend, database, and server solutions for mobile, web,
-          and desktop applications. Our purpose is to provide our clients with
-          expert guidance and to build software vital to their organizations.
+        We assemble software development teams that evolve alongside our clients, from inception to their highest aspirations. Our proficiency spans front-end, backend, database, and server integrations across mobile, web, and desktop platforms. We're committed to offering expert advice and crafting software that's pivotal to our clients' operations
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  gap-6 justify-items-center items-center md:px-16 lg:px-28 px-4 mt-4">
@@ -31,11 +27,7 @@ const OurServices = () => {
           </h1>
           <br />
           <p className="text-base leading-6 whitespace-normal text-[#393939]">
-            Digonto helps you create diverse and complex software solutions for
-            your business needs. Listening to your ideas, we implement and
-            create custom software solutions from scratch, designed especially
-            for your business. With Digonto, you get quality software and
-            perfect service every time.
+          Digonto makes special software just for your business. We listen to your ideas and build the software from the start. With Digonto, you always get good software and great help.
           </p>
         </div>
         <div
@@ -47,10 +39,7 @@ const OurServices = () => {
           </h1>
           <br />
           <p className="text-base leading-6 whitespace-normal text-[#393939]">
-            Digonto looks beyond conventional solutions to develop disruptive
-            web products. Our skilled and dedicated web development team
-            understands your needs and leverage the dynamism of modern web
-            frameworks to create business valued web applications.
+          Digonto thinks differently to make unique web products. Our web team is skilled and listens to what you need. We use the latest web tools to make helpful apps for your business.
           </p>
         </div>
         <div className="order-3 md:order-none lg:order-none">
@@ -68,13 +57,7 @@ const OurServices = () => {
           </h1>
           <br />
           <p className="text-base leading-6 whitespace-normal text-[#393939]">
-            Our expertise in custom mobile app development gives our clients the
-            opportunity to pack incredible functionality into their customer’s
-            hands. We develop apps that perform across different mobile devices
-            and operating systems. We are experts at Swift/Objective-C to build
-            native iOS apps and Java/Kotlin for native Android app development.
-            For cross-platform and hybrid development our expertise include, but
-            are not limited to, Ionic, Xamarin, and React Native.
+          We're really good at making custom mobile apps. This lets our clients give their customers great features on their phones. We make apps that work on many phones and systems. We use Swift/Objective-C for iOS apps and Java/Kotlin for Android. We also use tools like Ionic, Xamarin, and React Native for apps that work on multiple systems.
           </p>
         </div>
         <div
@@ -86,11 +69,7 @@ const OurServices = () => {
           </h1>
           <br />
           <p className="text-base leading-6 whitespace-normal text-[#393939]">
-            Digonto soft is your gateway to online success. We specialize in
-            SEO, social media management, PPC advertising, and more. Our expert
-            team crafts tailored strategies to boost your online presence,
-            engage your audience, and drive revenue. Stay ahead in the digital
-            realm with our results-driven solutions.
+           Digonto Soft helps you succeed online. We're good at things like SEO, managing social media, and online ads. Our team makes special plans to help your online image, connect with your customers, and earn more money. Get ahead online with our effective methods.
           </p>
         </div>
         <div className="order-7 md:order-none lg:order-none">

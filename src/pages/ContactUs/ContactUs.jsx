@@ -38,8 +38,8 @@ const ContactUs = () => {
               </div>
               <div className="text-[#515151]">
                 <p className="text-2xl font-light">Give us a call</p>
-                <p className="text-base font-light leading-10">+1 (3554466)</p>
-                <p className="text-base font-light">+880 12121212</p>
+                {/* <p className="text-base font-light leading-10">+1 (3554466)</p> */}
+                <p className="text-base font-light">+880 1906-725658</p>
               </div>
             </div>
             <div className="flex gap-6 mt-10">
@@ -49,7 +49,7 @@ const ContactUs = () => {
               <div className="text-[#515151]">
                 <p className="text-2xl font-light">Send us an email</p>
                 <p className="text-base font-light leading-10">
-                  info@digantabd.com
+                  info@digontosoft.com
                 </p>
               </div>
             </div>

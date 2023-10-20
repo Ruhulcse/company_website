@@ -5,8 +5,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, FreeMode, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import infonet from '../../assets/images/client/infonet-202x80.png';
-import inspectcheck from '../../assets/images/client/inspectcheck-247x80.png';
+import artsay from '../../assets/images/client/artsay.jpeg';
+import stopthefake from '../../assets/images/client/stopthefake.png';
 import powerhouse from '../../assets/images/client/powerhouse-180x80.png';
 import treeno from '../../assets/images/client/treeno-198x80.png';
 import './style.css';
@@ -32,16 +32,16 @@ const Clients = () => {
         className="mySwiper md:px-20 lg:px-20 px-0"
       >
         <SwiperSlide>
-            <img src={infonet} alt="" />
+            <img src={artsay} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={inspectcheck} alt="" />
+            <img src={stopthefake} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={powerhouse} alt="" />
+            <img src={artsay} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={treeno} alt="" />
+            <img src={stopthefake} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

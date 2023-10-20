@@ -40,16 +40,14 @@ const AboutUs = () => {
           </div>
           <div className="place-self-start" data-aos="fade-left">
             <p className="text-base font-normal leading-6 text-[#333333]">
-              Digonto is a premier provider of software development and testing
-              services. Having talented software engineers on board, we craft
-              compelling web, desktop, and mobile applications for our clients.
+            Digonto is a top-notch software and testing service. With skilled engineers, we make great web, computer, and phone apps for our clients.
             </p>
             <br />
-            <p className="text-base font-normal leading-6 text-[#333333]">
+            {/* <p className="text-base font-normal leading-6 text-[#333333]">
               Since our inception, we have partnered with numerous companies and
               delivered operational gains to startup, emerging, and established
               organizations in the United States and Canada.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -98,8 +96,7 @@ const AboutUs = () => {
               </h1>
               <br />
               <p className="text-base leading-6 whitespace-normal text-[#333333]">
-                Our teams can be ramped up quickly and managed autonomously to
-                implement and execute agreed plans.
+                Our teams can get started fast and work on their own to carry out the plans we agree on.
               </p>
             </div>
           </div>
@@ -133,8 +130,7 @@ const AboutUs = () => {
               </h1>
               <br />
               <p className="text-base leading-6 whitespace-normal text-[#333333]">
-                Our hiring process is constantly active to ensure your access to
-                the best IT professionals in the market.
+               We have quality engineers to help you
               </p>
             </div>
           </div>
@@ -286,9 +282,7 @@ const AboutUs = () => {
               </h1>
               <br />
               <p className="text-base leading-6 whitespace-normal text-[#333333]">
-                We are responsible for your project completion and team
-                management from start to end, guaranteeing quality product
-                output.
+              We handle your project from beginning to end, managing the team and making sure you get a top-quality product.
               </p>
             </div>
           </div>
@@ -319,8 +313,7 @@ const AboutUs = () => {
               </h1>
               <br />
               <p className="text-base leading-6 whitespace-normal text-[#333333]">
-                Our cost effective services help reduce your costs to remain
-                competitive without compromising quality.
+                We offer affordable services that let you save money and stay competitive, all without sacrificing quality.
               </p>
             </div>
           </div>
