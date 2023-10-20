@@ -4,9 +4,11 @@ import Custom_Soft from "../../../assets/images/home/custom-software.png";
 import Mobile_app from "../../../assets/images/home/mobile-app.png";
 import Office from "../../../assets/images/office.jpg";
 import Call from "../../../components/Call/Call";
+import PageTitle from "../../../components/shared/PageTitle/PageTitle";
 const MobileDev = () => {
   return (
     <div className="overflow-hidden">
+      <PageTitle title="Digonto Soft | Mobile Application"></PageTitle>
       <div class="relative">
         <img
           src={Office}

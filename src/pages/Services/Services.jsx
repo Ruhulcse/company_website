@@ -6,9 +6,11 @@ import Quality from "../../assets/images/home/quality-assurance.jpg";
 import webApp from "../../assets/images/home/web-app.png";
 import Office from "../../assets/images/office.jpg";
 import Call from "../../components/Call/Call";
+import PageTitle from "../../components/shared/PageTitle/PageTitle";
 const Services = () => {
   return (
     <div className="overflow-hidden">
+      <PageTitle title="Digonto Soft | Services"></PageTitle>
       <div class="relative">
         <img
           src={Office}

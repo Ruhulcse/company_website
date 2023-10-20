@@ -2,9 +2,11 @@ import { Button, Card, Input, Textarea } from "@material-tailwind/react";
 import React from "react";
 import { CiLocationOn, CiMail, CiMobile1 } from "react-icons/ci";
 import Office from "../../assets/images/office.jpg";
+import PageTitle from "../../components/shared/PageTitle/PageTitle";
 const ContactUs = () => {
   return (
     <div>
+      <PageTitle title="Digonto Soft | Contact Us"></PageTitle>
       <div class="relative">
         <img
           src={Office}

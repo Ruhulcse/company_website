@@ -3,7 +3,7 @@ import engagement from "../../../assets/images/engagement.png";
 import Custom_Soft from "../../../assets/images/home/custom-software.png";
 import Office from "../../../assets/images/office.jpg";
 import Call from "../../../components/Call/Call";
-const Quality = () => {
+const DigitalMarketing = () => {
   return (
     <div className="overflow-hidden">
       <div class="relative">
@@ -387,4 +387,4 @@ const Quality = () => {
   );
 };
 
-export default Quality;
+export default DigitalMarketing;

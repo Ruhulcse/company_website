@@ -3,9 +3,11 @@ import engagement from "../../../assets/images/engagement.png";
 import Custom_Soft from "../../../assets/images/home/custom-software.png";
 import Office from "../../../assets/images/office.jpg";
 import Call from "../../../components/Call/Call";
+import PageTitle from "../../../components/shared/PageTitle/PageTitle";
 const SoftDev = () => {
   return (
     <div className="overflow-hidden">
+      <PageTitle title="Digonto Soft | Custom Software"></PageTitle>
       <div class="relative">
         <img
           src={Office}

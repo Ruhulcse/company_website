@@ -1,9 +1,11 @@
 import React from "react";
 import Office from "../../assets/images/office.jpg";
 import Call from "../../components/Call/Call";
+import PageTitle from "../../components/shared/PageTitle/PageTitle";
 const AboutUs = () => {
   return (
     <div className="overflow-hidden">
+      <PageTitle title="Digonto Soft | About Us"></PageTitle>
       <div class="relative">
         <img
           src={Office}

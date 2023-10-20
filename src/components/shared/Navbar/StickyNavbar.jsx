@@ -57,7 +57,7 @@ const StickyNavbar = () => {
               mobile application Development
             </a>
           </NavLink>
-          <NavLink to="/services/quality">
+          <NavLink to="/services/digital-marketing">
             <a className="block py-2 px-4 capitalize text-base font-normal hover:text-white hover:bg-[#A41F5C] ">
               digital marketing
             </a>
@@ -92,9 +92,9 @@ const StickyNavbar = () => {
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
-          className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-[#A41F5C]"
+          className="mr-4 cursor-pointer capitalize py-1.5 font-bold text-2xl text-[#A41F5C]"
         >
-          <NavLink to="/">Digonto Soft</NavLink>
+        <a href="/">Digonto Soft</a>
         </Typography>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
